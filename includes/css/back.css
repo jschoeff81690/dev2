@@ -1,0 +1,219 @@
+@import url("blueprint.css");
+#bg
+{
+	background-color:#1A1A1A;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	height:100%;
+	background-position: -1px -1px; 
+	color: #969696;
+	z-index:0;
+	overflow:auto;
+	font-size:75%;
+}
+
+#wrapp
+{
+	top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+}
+
+#content-wrap
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	padding-bottom:25px;
+	position:relative;
+}
+
+#col1
+{
+	background-color:#969696;
+	color:#000;
+	width:250px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+	min-height:500px;
+	float:left;
+}
+
+#col1-content
+{
+	margin:5px;
+}
+
+
+#col2
+{
+	background-color:#969696;
+	color:#000;
+	width:635px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+	min-height:500px;
+	float:right;
+}
+
+#col2-content
+{
+	margin:5px;
+}
+
+#content
+{
+	margin:5px;
+	background-color:#969696;
+	padding:10px;
+	color:#000;
+	width:100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+	min-height:500px;
+
+}
+
+#header-wrap
+{
+	height:60px;
+	position:relative;
+}
+
+#header
+{
+	height:100%;
+}
+
+.menu ul
+{
+	height:50px;
+	margin:5px;
+	padding:0px;
+	background-color:#28C0FF;
+	width:600px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+}
+
+.menu ul li
+{
+	float:left;
+	display:block;
+	list-style:none;
+	text-decoration:none;
+	margin:15px 5px;
+}
+
+.menu ul li a:hover, .menu ul li a:focus
+{
+	height:50px;
+	color: #fff;
+	padding:5px;
+	border-style:solid;
+	border-width:1px;
+}
+
+.menu ul li a
+{
+	height:50px;
+	text-decoration:none;
+	color: #0253B6;
+	padding:6px;
+
+}
+
+#loginBlock
+{
+	width:220px;
+	top:75px;
+	margin-left:50%;
+	left: -110px;
+	position:absolute;
+}
+
+#loginBlock p
+{
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#loginBlock input[type="submit"]
+{
+	margin-left:20px;
+}
+
+#footer-wrap
+{
+	position:relative;
+	clear:both;
+}
+ 
+#footer 
+{	
+	font-size: 80%;
+	color: #969696;
+	text-align: center;
+}
+
+#footer a
+{
+	color: #28C0FF;
+	text-decoration:none;
+}
+
+#footer a:hover,a:focus
+{
+	color: #FFF;
+}
+.invoice
+{
+
+	margin:10px auto 10px auto;
+	padding:10px;
+	background-color:#fff;
+	position:relative;
+	color:#000;
+	width:650px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+}
+
+.invoice #info
+{
+	position:absolute;
+	top:15px;
+	left:440px;
+}
+
+#projects
+{
+	background-color:#DBDBDB;
+	margin:0px 10px 0px 10px;
+}
+#projects a
+{
+	color:#28C0FF;
+}
+#projectContent
+{
+	margin:5px 15px 5px 15px;
+}
+.spacer
+{
+	clear:both;
+	height:15px;
+	
+}
