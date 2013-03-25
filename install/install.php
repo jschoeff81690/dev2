@@ -144,7 +144,7 @@ switch($step):
 			}
 ?>
 	<h3>All Finished</h3>
-	<p>You can now use webdev with <br />Username: admin<br /> Password: admin <br /><br /> You can now close this window, Thank you.</p>
+	<p>You can now use webdev with <br />Username: test@grooveshark.com<br /> Password: admin <br /><br /> You can now close this window or redirect to yoursite.com/dev2, Thank you.</p>
 <?php
 		break;
 	default: echo "ERROR";
