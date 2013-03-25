@@ -193,5 +193,5 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 -- 
 
-INSERT INTO `users` VALUES (1, 'justnjust816@gmail.com', 'fc26409236d45334b73509df6485c918', 'Justin', 'Schoeff', '12861 sw 9th pl', '33325', 'Davie', 'FL', '9541234567', 1
+INSERT INTO `users` VALUES (1, 'test@grooveshark.com', 'ae37c513596ceba4207582cc2b80758e', 'Tester', 's', 'streets', '32607', 'the ville', 'FL', '9541234567', 1
 );
